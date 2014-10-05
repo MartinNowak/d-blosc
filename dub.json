@@ -1,0 +1,11 @@
+{
+    "name": "d-blosc",
+    "description": "Deimos Bindings for d-blosc.",
+    "homepage": "http://blosc.io",
+    "license": "MIT",
+    "dependencies": {
+    },
+    "importPaths": ["."],
+    "targetType": "sourceLibrary",
+    "libs": ["blosc"],
+}
