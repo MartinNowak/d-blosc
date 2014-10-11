@@ -50,9 +50,9 @@ enum SIZE = 100*100*100;
 //#define CHUNKSHAPE {1,100,100}
 
 int main(){
-  __gshared float data[SIZE];
-  __gshared float data_out[SIZE];
-  __gshared float data_dest[SIZE];
+  __gshared float[SIZE] data;
+  __gshared float[SIZE] data_out;
+  __gshared float[SIZE] data_dest;
   int isize = SIZE*float.sizeof, osize = SIZE*float.sizeof;
   int dsize = SIZE*float.sizeof, csize;
   int nthreads, pnthreads, i;
